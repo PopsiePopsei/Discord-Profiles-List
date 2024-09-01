@@ -1,6 +1,20 @@
-/*user profile in dms fix*/
-.mutualGuildsList_b433b4 > .collapseBtn_ce1058, .mutualFriendsList_b433b4 > .collapseBtn_ce1058 {
+.role_f9575e .roleRemoveIcon_e4010c {
+    margin: 0;
+    left: unset;
+    transform: translate(50%, -50%);
+}
+/*transparent call background*/
+.wrapper_d880dc,
+.minimum_d880dc,
+.callContainer_d880dc {
+    background: none !important;
+}
+
+.root_f42a96,
+.tile_dc5fc4 {
+    background: none;
+}
+
+.videoGrid_bae578 {
     background: transparent !important;
-    box-shadow: none !important;
-    border-radius: 0px !important;
 }
