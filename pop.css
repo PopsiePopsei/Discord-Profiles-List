@@ -9,3 +9,27 @@
 .interactive_f5eb4b {
     transition: all 0.3s;
 }
+div[class*="wrapper_c51b4e"][aria-label*="Streaming"]
+> svg[class="mask_c51b4e svg_c51b4e"] {
+    filter: drop-shadow(0 0 3px var(--rs-streaming-color)) !important;
+}
+
+div[class*="wrapper_c51b4e"][aria-label*="Do Not Disturb"]
+> svg[class="mask_c51b4e svg_c51b4e"] {
+    filter: drop-shadow(0 0 3px var(--rs-dnd-color)) !important;
+}
+
+div[class*="wrapper_c51b4e"][aria-label*="Offline"]
+> svg[class="mask_c51b4e svg_c51b4e"] {
+    filter: drop-shadow(0 0 3px var(--rs-offline-color)) !important;
+}
+
+div[class*="wrapper_c51b4e"][aria-label*="Idle"]
+> svg[class="mask_c51b4e svg_c51b4e"] {
+    filter: drop-shadow(0 0 3px var(--rs-idle-color)) !important;
+}
+
+div[class*="wrapper_c51b4e"][aria-label*="Online"]
+> svg[class="mask_c51b4e svg_c51b4e"] {
+    filter: drop-shadow(0 0 3px var(--rs-online-color)) !important;
+}
